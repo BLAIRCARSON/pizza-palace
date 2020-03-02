@@ -41,4 +41,4 @@ engineervinceblair@gmail.com
 
 ## Licence
 
-- <a href="https://github.com/">License details</a>
+- <a href="https://github.com/BLAIRCARSON/pizza-palace/blob/gh-pages/LICENSE">License details</a>
