@@ -25,7 +25,7 @@
 
 ### Live link to my site
 
-- Find my live link here <a href="https://blaircarson.github.io/">LIVE LINK</a>
+- Find my live link here <a href="https://blaircarson.github.io/pizza-palace/">LIVE LINK</a>
 
 ### Technologies Used
 
