@@ -4,7 +4,7 @@
 - Kirui Cheruiyot Vincent
 
 ### Description
-- This is website where a user can order pizza online by chooing their preferred types (options are on the drop down)
+- This is website where a user can order pizza online by choosing their preferred types (options are on the drop down)
 
 ### Setup/Installation Requirements
 - Open terminal (CTRL ALT T)
