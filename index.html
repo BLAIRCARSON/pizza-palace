@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kericho Pizza Palace</title>
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/wickedcss.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
 <body>
-    <!--Start Navigation //-->
+    
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <h1 id="piz-pap" class="">Kericho Pi<span id="spantext">zz</span>a palace!</h1>
     <div class="navi">
@@ -30,10 +26,8 @@
         </ul>
     </div>
 </nav>
-<!--End Navigation-->
 
 
-<!--Start Landing-->
 <div class="landing">
     <div class="overlay">
         <div id="push"></div>
@@ -52,9 +46,9 @@
         </div>
     </div>
 </div>
-<!--End Landing-->
 
-<!--Welcome Section-->
+
+
 
 <div class="welcome" id="welcome">
     <br><br><br><br>
@@ -66,8 +60,9 @@
             <div class="col-md-6 karibu-txt">
                 <h1 class="text-center txt txt-big">Kericho <span class="pizz">Pizza </span><span class="exc">palace!</span>
                 </h1>
-                <p class="text-center txt">The best pizza you'll ever taste</p>
+                <p class="text-center txt">Order our extremely sweet pizzas.</p>
                 <p class="text-center txt">Order your pizza and we wil deliver it to your location.</p>
+                <p class="text-center txt">Don't be left out,ORDER NOW! </p>
                 <a href="#menus">
                     <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
                 </a>
@@ -75,7 +70,7 @@
         </div>
     </div>
 </div>
-<!--Start Content-->
+
 
 <div id="menus"></div>
 <br>
@@ -162,7 +157,7 @@
 </div>
 
 <div class="order-summary" id="sum-order">
-    <h1 class="text-center" id="summary">Order Summary</h1>
+    <h1 class="text-center" id="summary">What to be DELIVERED ::</h1>
     <h2 class="text-center summary">You ordered the following:</h2>
     <ol id="list" class="text-center sum">
     </ol>
@@ -171,10 +166,10 @@
     <div class="cdata-overlay">
         <div class="customerdata row">
             <div class="col-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data">
-                <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+            <form action="" class="form-group col-sm-6 data" id="form" >
+                <input type="text" class="form-control cdata" placeholder="Enter your Name:"required>
+                <input type="text" class="form-control cdata" placeholder="Enter your phone number: " required>
+                <input type="text" class="form-control cdata" placeholder="Enter the location: "required>
                 <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
             </form>
 
@@ -183,7 +178,7 @@
     </div>
     <div class="d-block mx-auto text-center">
         <button class='deliver'>Make Delivery</button>
-        <button class='delivernot'>Pick Up</button>
+        <button class='delivernot'>Pick Up Location</button>
     </div>
 </div>
 
@@ -202,7 +197,7 @@
                                    required="">
                         </div>
                     </div>
-                    <div class=" email-info text-center">
+                    <div class=" email-info text-center" id="subss">
                         <button class="btn click-me" onclick="subscribe();">Subscribe</button>
                     </div>
                 </form>
@@ -214,8 +209,9 @@
         </div>
     </div>
 </div>
-
-<!--End Content-->
+<div class="card-footer text-center">
+    <p>© 2020 Copyright:KIRUI CHERUIYOT VINCENT</p>
+</div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
