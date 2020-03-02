@@ -422,3 +422,12 @@ $(function () {
     });
 });
 });
+
+$(document).ready(function() {
+    document.getElementById("form").addEventListener("submit", popUp);
+    function popUp() {
+      alert("Your details have been received and we will deliver your order to your location.");
+    }
+  });
+  
+
